@@ -1,0 +1,18 @@
+body {
+    background: lightgray;
+    font-family: Avenir, monospace;
+}
+
+h1 {
+    background: #555555;
+    color: white;
+    margin:0;
+    padding: 30px;
+}
+
+p{
+    background:white;
+    color: gray;
+    padding: 10px;
+}
+
