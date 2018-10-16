@@ -13,44 +13,49 @@ h1 {
 .responsive{
     width: 100%;
     height: auto;
+    padding:0px;
+    margin:0
+
 }
 
-
-p{
-    background:lightgray;
+.intro{
+    background: white;
     color:gray;
-    padding: 10px;
-    margin:10px;
-}
-
-.row{
-
+    padding: 20px
 }
 
 .col{
     background:lightgray;
-    border-radius:5px;
     float: left;
     width: 42%;
     margin: 3%;
 }
 
-.ml{
+.frontimages{
     width: 100%;
-    height: 200px;
+    height: 320px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-
 }
 
-.m1{
-    width: 50%;
-    height: auto;
-    margin:5%;
+.postcards {
+    width: 40%;
+    height: 330px;
+    margin: 5%;
     float: left;
-    display: inline-block;
+    display: block;
+    align-items: flex-start;
 }
 
-.m11{
+.navi{
+    display: block;
+}
+
+
+.text{
+    display: block;
     background:white;
+    color:gray;
+    text-align: left;
+    padding: 100px;
 }
